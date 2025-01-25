@@ -1,0 +1,2114 @@
+Last login: Sat Jan 25 00:09:14 on ttys000
+natalievalsangkar@Natalies-Air ~ % cd /Users/natalievalsangkar/Library/Mobile\ Documents/com\~apple\~CloudDocs/Work/TH\ Ingolstadt\ UXDM/AVR\ Project/CosmicChronicles/Cosmic\ Chronicles\ \(Final\)
+natalievalsangkar@Natalies-Air Cosmic Chronicles (Final) % touch .gitignore
+
+natalievalsangkar@Natalies-Air Cosmic Chronicles (Final) % touch .gitignore
+
+natalievalsangkar@Natalies-Air Cosmic Chronicles (Final) % nano .gitignore
+
+natalievalsangkar@Natalies-Air Cosmic Chronicles (Final) % ls -a
+.
+..
+.DS_Store
+.gitignore
+.gitignore.rtf
+.vs
+Assembly-CSharp-Editor.csproj
+Assembly-CSharp.csproj
+Assets
+Builds
+Builds_BurstDebugInformation_DoNotShip
+Cosmic Chronicles (Final).sln
+Library
+Logs
+New Saturn.sln
+Packages
+ProjectSettings
+Temp
+Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.csproj
+Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.csproj
+Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj
+Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj
+UserSettings
+bin
+obj
+natalievalsangkar@Natalies-Air Cosmic Chronicles (Final) % git init
+Initialized empty Git repository in /Users/natalievalsangkar/Library/Mobile Documents/com~apple~CloudDocs/Work/TH Ingolstadt UXDM/AVR Project/CosmicChronicles/Cosmic Chronicles (Final)/.git/
+natalievalsangkar@Natalies-Air Cosmic Chronicles (Final) % git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+natalievalsangkar@Natalies-Air Cosmic Chronicles (Final) % git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+natalievalsangkar@Natalies-Air Cosmic Chronicles (Final) % 
+natalievalsangkar@Natalies-Air Cosmic Chronicles (Final) % git add .
+git commit -m "Initial commit of Unity project"
+
+git remote add origin https://github.com/NatalieValsangkar/Cosmic-Chronicles.git
+git branch -M main
+
+git push -u origin main
+
+git add .
+
+natalievalsangkar@Natalies-Air Cosmic Chronicles (Final) % git commit -m "Initial commit of Unity project"
+[main (root-commit) ab13d4b] Initial commit of Unity project
+ 2045 files changed, 615369 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .gitignore.rtf
+ create mode 100644 .vs/Cosmic Chronicles (Final)/xs/UserPrefs.xml
+ create mode 100644 .vs/Cosmic Chronicles (Final)/xs/project-cache/Assembly-CSharp-Debug.json
+ create mode 100644 .vs/Cosmic Chronicles (Final)/xs/project-cache/Assembly-CSharp-Editor-Debug.json
+ create mode 100644 .vs/Cosmic Chronicles (Final)/xs/project-cache/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets-Debug.json
+ create mode 100644 .vs/Cosmic Chronicles (Final)/xs/project-cache/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor-Debug.json
+ create mode 100644 .vs/Cosmic Chronicles (Final)/xs/project-cache/Unity.XR.Interaction.Toolkit.Samples.StarterAssets-Debug.json
+ create mode 100644 .vs/Cosmic Chronicles (Final)/xs/project-cache/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor-Debug.json
+ create mode 100644 .vs/New Saturn/xs/UserPrefs.xml
+ create mode 100644 .vs/New Saturn/xs/project-cache/Assembly-CSharp-Debug.json
+ create mode 100644 .vs/New Saturn/xs/project-cache/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets-Debug.json
+ create mode 100644 .vs/New Saturn/xs/project-cache/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor-Debug.json
+ create mode 100644 .vs/New Saturn/xs/project-cache/Unity.XR.Interaction.Toolkit.Samples.StarterAssets-Debug.json
+ create mode 100644 .vs/New Saturn/xs/project-cache/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor-Debug.json
+ create mode 100644 Assets/3D Models.meta
+ create mode 100644 Assets/3D Models/Rocket.meta
+ create mode 100755 Assets/3D Models/Rocket/Nozzle.fbx
+ create mode 100755 Assets/3D Models/Rocket/Nozzle.fbx.meta
+ create mode 100755 Assets/3D Models/Rocket/Pistons.fbx
+ create mode 100755 Assets/3D Models/Rocket/Pistons.fbx.meta
+ create mode 100755 Assets/3D Models/Rocket/Pumps.fbx
+ create mode 100755 Assets/3D Models/Rocket/Pumps.fbx.meta
+ create mode 100755 Assets/3D Models/Rocket/Rocket_Enginee.fbx
+ create mode 100755 Assets/3D Models/Rocket/Rocket_Enginee.fbx.meta
+ create mode 100755 Assets/3D Models/Rocket/UpperHinge.fbx
+ create mode 100755 Assets/3D Models/Rocket/UpperHinge.fbx.meta
+ create mode 100755 Assets/3D Models/Rocket/Wires.fbx
+ create mode 100755 Assets/3D Models/Rocket/Wires.fbx.meta
+ create mode 100755 Assets/3D Models/Rocket/rocket_engine_texture.mat
+ create mode 100755 Assets/3D Models/Rocket/rocket_engine_texture.mat.meta
+ create mode 100755 Assets/3D Models/Rocket/rocket_engine_texture.png
+ create mode 100755 Assets/3D Models/Rocket/rocket_engine_texture.png.meta
+ create mode 100644 Assets/Assets.meta
+ create mode 100644 Assets/Assets/2k_saturn.jpg
+ create mode 100644 Assets/Assets/2k_saturn.jpg.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Build_in_RP.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Build_in_RP/Materials_SRP.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Build_in_RP/Materials_SRP/Hurricane_spaceship_mat_SRP_N01.mat
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Build_in_RP/Materials_SRP/Hurricane_spaceship_mat_SRP_N01.mat.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Build_in_RP/Materials_SRP/flame_eng_mat_SRP_01.mat
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Build_in_RP/Materials_SRP/flame_eng_mat_SRP_01.mat.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Build_in_RP/Prefabs_SRP.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Build_in_RP/Prefabs_SRP/Hurricane_spaceship_SRP_N01_01.prefab
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Build_in_RP/Prefabs_SRP/Hurricane_spaceship_SRP_N01_01.prefab.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/HDRPDefaultResources.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/HDRPDefaultResources/DefaultLookDevProfile.asset
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/HDRPDefaultResources/DefaultLookDevProfile.asset.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/HDRPDefaultResources/Foliage Diffusion Profile.asset
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/HDRPDefaultResources/Foliage Diffusion Profile.asset.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/HDRPDefaultResources/HDRenderPipelineAsset.asset
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/HDRPDefaultResources/HDRenderPipelineAsset.asset.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/HDRPDefaultResources/Skin Diffusion Profile.asset
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/HDRPDefaultResources/Skin Diffusion Profile.asset.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/Materials_HDRP.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/Materials_HDRP/Hurricane_spaceship_mat_HDRP_N01.mat
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/Materials_HDRP/Hurricane_spaceship_mat_HDRP_N01.mat.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/Materials_HDRP/Hurricane_spaceship_mat_HDRP_N01_MaskMap.png
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/Materials_HDRP/Hurricane_spaceship_mat_HDRP_N01_MaskMap.png.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/Materials_HDRP/flame_eng_mat_HDRP_01.mat
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/Materials_HDRP/flame_eng_mat_HDRP_01.mat.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/Prefabs_HDRP.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/Prefabs_HDRP/Hurricane_spaceship_HDRP_N01_01.prefab
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/Prefabs_HDRP/Hurricane_spaceship_HDRP_N01_01.prefab.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Meshes.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Meshes/Hurricane_spaceship_N01.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Meshes/Hurricane_spaceship_N01/Hurricane_spaceship_N01_01_env_01_low.fbx
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Meshes/Hurricane_spaceship_N01/Hurricane_spaceship_N01_01_env_01_low.fbx.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Meshes/Hurricane_spaceship_N01/Hurricane_spaceship_geom_N01_01.fbx
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Meshes/Hurricane_spaceship_N01/Hurricane_spaceship_geom_N01_01.fbx.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Textures.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/Materials.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/Materials/ship_N01_Emission_01.mat
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/Materials/ship_N01_Emission_01.mat.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/New Material.mat
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/New Material.mat.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_AO_01.png
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_AO_01.png.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_AlbedoTransparency_01.png
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_AlbedoTransparency_01.png.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_Emission_01.png
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_Emission_01.png.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_MetallicSmoothness_01.png
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_MetallicSmoothness_01.png.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_Normal_01.png
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_Normal_01.png.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/URP.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/URP/Materials_URP.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/URP/Materials_URP/Hurricane_spaceship_mat_URP_N01.mat
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/URP/Materials_URP/Hurricane_spaceship_mat_URP_N01.mat.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/URP/Materials_URP/flame_eng_mat_URP_01.mat
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/URP/Materials_URP/flame_eng_mat_URP_01.mat.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/URP/Prefabs_URP.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/URP/Prefabs_URP/Hurricane_spaceship_URP_N01_01.prefab
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/URP/Prefabs_URP/Hurricane_spaceship_URP_N01_01.prefab.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/URP/URPDefaultResources.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/URP/URPDefaultResources/UniversalRenderPipelineAsset.asset
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/URP/URPDefaultResources/UniversalRenderPipelineAsset.asset.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/URP/URPDefaultResources/UniversalRenderPipelineAsset_Renderer.asset
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/URP/URPDefaultResources/UniversalRenderPipelineAsset_Renderer.asset.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/demo_scene.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/demo_scene/demo_scene_7f_HDRP_01.unity
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/demo_scene/demo_scene_7f_HDRP_01.unity.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/demo_scene/demo_scene_7f_SRP_01.unity
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/demo_scene/demo_scene_7f_SRP_01.unity.meta
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/demo_scene/demo_scene_7f_URP_01.unity
+ create mode 100644 Assets/Assets/3D_Sci-fi_Spaceships_edit_Pack07f/demo_scene/demo_scene_7f_URP_01.unity.meta
+ create mode 100644 Assets/Assets/Asteroid 1 Variant.prefab
+ create mode 100644 Assets/Assets/Asteroid 1 Variant.prefab.meta
+ create mode 100644 Assets/Assets/Asteroids Pack.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Materials.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Materials/large_asteroid.mat
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Materials/large_asteroid.mat.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Materials/skybox.mat
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Materials/skybox.mat.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Materials/small_asteroid.mat
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Materials/small_asteroid.mat.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Meshes.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Meshes/asteroid1_LOD0.fbx
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Meshes/asteroid1_LOD0.fbx.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Meshes/asteroid1_LOD1.fbx
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Meshes/asteroid1_LOD1.fbx.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Meshes/asteroid1_LOD2.fbx
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Meshes/asteroid1_LOD2.fbx.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Meshes/asteroid2_LOD0.fbx
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Meshes/asteroid2_LOD0.fbx.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Meshes/asteroid2_LOD1.fbx
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Meshes/asteroid2_LOD1.fbx.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Meshes/asteroid2_LOD2.fbx
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Meshes/asteroid2_LOD2.fbx.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Meshes/asteroid3_LOD0.fbx
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Meshes/asteroid3_LOD0.fbx.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Meshes/asteroid3_LOD1.fbx
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Meshes/asteroid3_LOD1.fbx.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Meshes/asteroid3_LOD2.fbx
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Meshes/asteroid3_LOD2.fbx.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Prefabs.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Prefabs/Asteroid 1.prefab
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Prefabs/Asteroid 1.prefab.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Prefabs/Asteroid 2.prefab
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Prefabs/Asteroid 2.prefab.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Prefabs/Asteroid 3.prefab
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Prefabs/Asteroid 3.prefab.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Scripts.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Scripts/RandomRotator.cs
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Scripts/RandomRotator.cs.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures/Rocky.mat
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures/Rocky.mat.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures/Skybox.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures/Skybox/back.png
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures/Skybox/back.png.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures/Skybox/bottom.png
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures/Skybox/bottom.png.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures/Skybox/front.png
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures/Skybox/front.png.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures/Skybox/left.png
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures/Skybox/left.png.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures/Skybox/right.png
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures/Skybox/right.png.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures/Skybox/up.png
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures/Skybox/up.png.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures/seamless_rock_texture.jpg
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures/seamless_rock_texture.jpg.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures/seamless_rock_texture_detail.jpg
+ create mode 100644 Assets/Assets/Asteroids Pack/Assets/Textures/seamless_rock_texture_detail.jpg.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Demo.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Demo/Demo.unity
+ create mode 100644 Assets/Assets/Asteroids Pack/Demo/Demo.unity.meta
+ create mode 100644 Assets/Assets/Asteroids Pack/Demo/DemoSettings.lighting
+ create mode 100644 Assets/Assets/Asteroids Pack/Demo/DemoSettings.lighting.meta
+ create mode 100644 Assets/Assets/AurynSky.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/BG.mat
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/BG.mat.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/Blank.mat
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/Blank.mat.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/Blue.mat
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/Blue.mat.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/Green.mat
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/Green.mat.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/Material.mat
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/Material.mat.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/Orange.mat
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/Orange.mat.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/Pink.mat
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/Pink.mat.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/Purple.mat
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/Purple.mat.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/Red.mat
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/Red.mat.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/Yellow.mat
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Materials/Yellow.mat.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/4 Side Diamond.fbx
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/4 Side Diamond.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/5 Side Diamond.fbx
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/5 Side Diamond.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/BeveledStar.fbx
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/BeveledStar.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/Cubie.fbx
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/Cubie.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/CubieBeveled.fbx
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/CubieBeveled.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/Cuboid.fbx
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/Cuboid.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/Diamondo.fbx
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/Diamondo.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/Diamondo5side.fbx
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/Diamondo5side.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/HardStar.fbx
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/HardStar.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/Heart.fbx
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/Heart.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/Hexgon.fbx
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/Hexgon.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/Penta.fbx
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/Penta.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/SoftStar.fbx
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/SoftStar.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/SphereGemLarge.fbx
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/SphereGemLarge.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/SphereGemSmall.fbx
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/SphereGemSmall.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/Spiral.fbx
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Models/Spiral.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/4 Side Diamond.prefab
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/4 Side Diamond.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/5 Side Diamond.prefab
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/5 Side Diamond.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/BeveledStar.prefab
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/BeveledStar.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/Cubie.prefab
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/Cubie.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/CubieBeveled.prefab
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/CubieBeveled.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/Cuboid.prefab
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/Cuboid.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/Diamondo.prefab
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/Diamondo.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/Diamondo5side.prefab
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/Diamondo5side.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/HardStar.prefab
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/HardStar.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/Heart.prefab
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/Heart.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/Hexgon.prefab
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/Hexgon.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/Penta.prefab
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/Penta.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/SoftStar.prefab
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/SoftStar.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/SphereGemLarge.prefab
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/SphereGemLarge.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/SphereGemSmall.prefab
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/SphereGemSmall.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/Spiral.prefab
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Prefabs/Spiral.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/READ ME.txt
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/READ ME.txt.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Scenes.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Scenes/DemoScene_Gems.unity
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Scenes/DemoScene_Gems.unity.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Scripts.meta
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Scripts/AnimationScript.cs
+ create mode 100644 Assets/Assets/AurynSky/Gems Ultimate Pack/Scripts/AnimationScript.cs.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Materials.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteBlank.mat
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteBlank.mat.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteBlue.mat
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteBlue.mat.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteGreen.mat
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteGreen.mat.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteGrey.mat
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteGrey.mat.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteOrange.mat
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteOrange.mat.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPallettePink.mat
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPallettePink.mat.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteRed.mat
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteRed.mat.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteYellow.mat
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteYellow.mat.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket01.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket01.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket02.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket02.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket03.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket03.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket04.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket04.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket05.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket05.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket06.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket06.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket07.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket07.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket08.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket08.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket09.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket09.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket10.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket10.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket11.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket11.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket12.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket12.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket13.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket13.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket14.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket14.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket15.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket15.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket16.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket16.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket17.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket17.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket18.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket18.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket19.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket19.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket20.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket20.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket21.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket21.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket22.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket22.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket23.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket23.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket24.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket24.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket25.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket25.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket26.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket26.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket27.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket27.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket28.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket28.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket29.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket29.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket30.fbx
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket30.fbx.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket01_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket01_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket02_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket02_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket03_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket03_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket04_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket04_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket05_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket05_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket06_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket06_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket07_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket07_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket08_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket08_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket09_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket09_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket10_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket10_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket11_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket11_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket12_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket12_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket13_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket13_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket14_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket14_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket15_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket15_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket16_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket16_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket17_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket17_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket18_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket18_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket19_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket19_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket20_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket20_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket21_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket21_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket22_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket22_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket23_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket23_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket24_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket24_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket25_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket25_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket26_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket26_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket27_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket27_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket28_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket28_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket29_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket29_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket30_Blue.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket30_Blue.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket01_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket01_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket02_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket02_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket03_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket03_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket04_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket04_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket05_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket05_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket06_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket06_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket07_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket07_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket08_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket08_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket09_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket09_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket10_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket10_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket11_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket11_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket12_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket12_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket13_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket13_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket14_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket14_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket15_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket15_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket16_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket16_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket17_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket17_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket18_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket18_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket19_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket19_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket20_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket20_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket21_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket21_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket22_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket22_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket23_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket23_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket24_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket24_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket25_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket25_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket26_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket26_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket27_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket27_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket28_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket28_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket29_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket29_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket30_Green.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket30_Green.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket01_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket01_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket02_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket02_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket03_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket03_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket04_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket04_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket05_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket05_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket06_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket06_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket07_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket07_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket08_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket08_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket09_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket09_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket10_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket10_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket11_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket11_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket12_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket12_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket13_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket13_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket14_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket14_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket15_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket15_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket16_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket16_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket17_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket17_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket18_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket18_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket19_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket19_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket20_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket20_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket21_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket21_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket22_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket22_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket23_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket23_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket24_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket24_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket25_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket25_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket26_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket26_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket27_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket27_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket28_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket28_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket29_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket29_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket30_Grey.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket30_Grey.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket01_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket01_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket02_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket02_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket03_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket03_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket04_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket04_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket05_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket05_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket06_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket06_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket07_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket07_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket08_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket08_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket09_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket09_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket10_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket10_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket11_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket11_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket12_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket12_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket13_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket13_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket14_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket14_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket15_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket15_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket16_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket16_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket17_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket17_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket18_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket18_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket19_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket19_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket20_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket20_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket21_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket21_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket22_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket22_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket23_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket23_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket24_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket24_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket25_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket25_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket26_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket26_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket27_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket27_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket28_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket28_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket29_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket29_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket30_Orange.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket30_Orange.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket01_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket01_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket02_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket02_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket03_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket03_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket04_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket04_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket05_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket05_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket06_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket06_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket07_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket07_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket08_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket08_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket09_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket09_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket10_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket10_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket11_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket11_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket12_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket12_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket13_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket13_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket14_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket14_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket15_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket15_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket16_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket16_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket17_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket17_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket18_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket18_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket19_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket19_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket20_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket20_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket21_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket21_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket22_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket22_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket23_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket23_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket24_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket24_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket25_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket25_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket26_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket26_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket27_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket27_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket28_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket28_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket29_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket29_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket30_Pink.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket30_Pink.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket01_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket01_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket02_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket02_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket03_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket03_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket04_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket04_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket05_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket05_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket06_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket06_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket07_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket07_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket08_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket08_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket09_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket09_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket10_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket10_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket11_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket11_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket12_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket12_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket13_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket13_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket14_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket14_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket15_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket15_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket16_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket16_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket17_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket17_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket18_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket18_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket19_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket19_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket20_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket20_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket21_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket21_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket22_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket22_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket23_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket23_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket24_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket24_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket25_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket25_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket26_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket26_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket27_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket27_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket28_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket28_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket29_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket29_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket30_Red.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket30_Red.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket01_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket01_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket02_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket02_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket03_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket03_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket04_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket04_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket05_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket05_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket06_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket06_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket07_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket07_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket08_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket08_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket09_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket09_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket10_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket10_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket11_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket11_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket12_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket12_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket13_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket13_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket14_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket14_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket15_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket15_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket16_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket16_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket17_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket17_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket18_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket18_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket19_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket19_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket20_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket20_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket21_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket21_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket22_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket22_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket23_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket23_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket24_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket24_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket25_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket25_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket26_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket26_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket27_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket27_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket28_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket28_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket29_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket29_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket30_Yellow.prefab
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket30_Yellow.prefab.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/READ ME.txt
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/READ ME.txt.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Scenes.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Scenes/DemoScene_RMB.unity
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Scenes/DemoScene_RMB.unity.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Textures.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Textures/New Material.mat
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Textures/New Material.mat.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteBlue.png
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteBlue.png.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteGreen.png
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteGreen.png.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteGrey.png
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteGrey.png.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteOrange.png
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteOrange.png.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPallettePink.png
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPallettePink.png.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteRed.png
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteRed.png.meta
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteYellow.png
+ create mode 100644 Assets/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteYellow.png.meta
+ create mode 100644 Assets/Assets/Game 1 Assets.meta
+ create mode 100644 Assets/Assets/Gem.prefab
+ create mode 100644 Assets/Assets/Gem.prefab.meta
+ create mode 100644 Assets/Assets/Hexgon.prefab
+ create mode 100644 Assets/Assets/Hexgon.prefab.meta
+ create mode 100644 Assets/Assets/New Material.mat
+ create mode 100644 Assets/Assets/New Material.mat.meta
+ create mode 100644 Assets/Assets/Rocket03_Green Variant.prefab
+ create mode 100644 Assets/Assets/Rocket03_Green Variant.prefab.meta
+ create mode 100644 Assets/Assets/Rocket03_Green Variant1.prefab
+ create mode 100644 Assets/Assets/Rocket03_Green Variant1.prefab.meta
+ create mode 100644 Assets/Assets/Saturn 1.prefab
+ create mode 100644 Assets/Assets/Saturn 1.prefab.meta
+ create mode 100644 Assets/Assets/Saturn Game.unity
+ create mode 100644 Assets/Assets/Saturn Game.unity.meta
+ create mode 100644 Assets/Assets/Saturn.mat
+ create mode 100644 Assets/Assets/Saturn.mat.meta
+ create mode 100644 Assets/Assets/Saturn.prefab
+ create mode 100644 Assets/Assets/Saturn.prefab.meta
+ create mode 100644 Assets/Assets/seamless_rock_texture.jpg
+ create mode 100644 Assets/Assets/seamless_rock_texture.jpg.meta
+ create mode 100644 Assets/Audio.meta
+ create mode 100644 Assets/Audio/Collectable.wav
+ create mode 100644 Assets/Audio/Collectable.wav.meta
+ create mode 100644 Assets/Audio/Death.wav
+ create mode 100644 Assets/Audio/Death.wav.meta
+ create mode 100644 Assets/Audio/Hurt.wav
+ create mode 100644 Assets/Audio/Hurt.wav.meta
+ create mode 100644 Assets/Audio/LandOnEnemy.wav
+ create mode 100644 Assets/Audio/LandOnEnemy.wav.meta
+ create mode 100644 Assets/Audio/LandOnGround.wav
+ create mode 100644 Assets/Audio/LandOnGround.wav.meta
+ create mode 100644 Assets/Audio/Music.wav
+ create mode 100644 Assets/Audio/Music.wav.meta
+ create mode 100644 Assets/Audio/Walk01.wav
+ create mode 100644 Assets/Audio/Walk01.wav.meta
+ create mode 100644 Assets/Audio/Walk02.wav
+ create mode 100644 Assets/Audio/Walk02.wav.meta
+ create mode 100644 Assets/Audio/jump.wav
+ create mode 100644 Assets/Audio/jump.wav.meta
+ create mode 100644 Assets/Character.meta
+ create mode 100644 Assets/Character/Animations.meta
+ create mode 100644 Assets/Character/Animations/Enemy.controller
+ create mode 100644 Assets/Character/Animations/Enemy.controller.meta
+ create mode 100644 Assets/Character/Animations/EnemyDeath.anim
+ create mode 100644 Assets/Character/Animations/EnemyDeath.anim.meta
+ create mode 100644 Assets/Character/Animations/EnemyHurt.anim
+ create mode 100644 Assets/Character/Animations/EnemyHurt.anim.meta
+ create mode 100644 Assets/Character/Animations/EnemyIdle.anim
+ create mode 100644 Assets/Character/Animations/EnemyIdle.anim.meta
+ create mode 100644 Assets/Character/Animations/EnemyRun.anim
+ create mode 100644 Assets/Character/Animations/EnemyRun.anim.meta
+ create mode 100644 Assets/Character/Animations/Player.controller
+ create mode 100644 Assets/Character/Animations/Player.controller.meta
+ create mode 100644 Assets/Character/Animations/PlayerDeath.anim
+ create mode 100644 Assets/Character/Animations/PlayerDeath.anim.meta
+ create mode 100644 Assets/Character/Animations/PlayerHurt.anim
+ create mode 100644 Assets/Character/Animations/PlayerHurt.anim.meta
+ create mode 100644 Assets/Character/Animations/PlayerIdle.anim
+ create mode 100644 Assets/Character/Animations/PlayerIdle.anim.meta
+ create mode 100644 Assets/Character/Animations/PlayerJump.anim
+ create mode 100644 Assets/Character/Animations/PlayerJump.anim.meta
+ create mode 100644 Assets/Character/Animations/PlayerLand.anim
+ create mode 100644 Assets/Character/Animations/PlayerLand.anim.meta
+ create mode 100644 Assets/Character/Animations/PlayerRun.anim
+ create mode 100644 Assets/Character/Animations/PlayerRun.anim.meta
+ create mode 100644 Assets/Character/Animations/PlayerSpawn.anim
+ create mode 100644 Assets/Character/Animations/PlayerSpawn.anim.meta
+ create mode 100644 Assets/Character/Animations/PlayerVictory.anim
+ create mode 100644 Assets/Character/Animations/PlayerVictory.anim.meta
+ create mode 100644 Assets/Character/Sprites.meta
+ create mode 100644 Assets/Character/Sprites/EndFlag.png
+ create mode 100644 Assets/Character/Sprites/EndFlag.png.meta
+ create mode 100644 Assets/Character/Sprites/EnemyDeath.png
+ create mode 100644 Assets/Character/Sprites/EnemyDeath.png.meta
+ create mode 100644 Assets/Character/Sprites/EnemyHurt.png
+ create mode 100644 Assets/Character/Sprites/EnemyHurt.png.meta
+ create mode 100644 Assets/Character/Sprites/EnemyIdle.png
+ create mode 100644 Assets/Character/Sprites/EnemyIdle.png.meta
+ create mode 100644 Assets/Character/Sprites/EnemyRun.png
+ create mode 100644 Assets/Character/Sprites/EnemyRun.png.meta
+ create mode 100644 Assets/Character/Sprites/Mr.Alien.png
+ create mode 100644 Assets/Character/Sprites/Mr.Alien.png.meta
+ create mode 100644 Assets/Character/Sprites/PlayerDeath.png
+ create mode 100644 Assets/Character/Sprites/PlayerDeath.png.meta
+ create mode 100644 Assets/Character/Sprites/PlayerHurt.png
+ create mode 100644 Assets/Character/Sprites/PlayerHurt.png.meta
+ create mode 100644 Assets/Character/Sprites/PlayerIdle.png
+ create mode 100644 Assets/Character/Sprites/PlayerIdle.png.meta
+ create mode 100644 Assets/Character/Sprites/PlayerJump.png
+ create mode 100644 Assets/Character/Sprites/PlayerJump.png.meta
+ create mode 100644 Assets/Character/Sprites/PlayerLand.png
+ create mode 100644 Assets/Character/Sprites/PlayerLand.png.meta
+ create mode 100644 Assets/Character/Sprites/PlayerRun.png
+ create mode 100644 Assets/Character/Sprites/PlayerRun.png.meta
+ create mode 100644 Assets/Character/Sprites/PlayerSpawn.png
+ create mode 100644 Assets/Character/Sprites/PlayerSpawn.png.meta
+ create mode 100644 Assets/Character/Sprites/PlayerVictory.png
+ create mode 100644 Assets/Character/Sprites/PlayerVictory.png.meta
+ create mode 100644 Assets/Character/Sprites/Screenshot 2025-01-16 at 14.35.23.png
+ create mode 100644 Assets/Character/Sprites/Screenshot 2025-01-16 at 14.35.23.png.meta
+ create mode 100644 Assets/Character/Sprites/TokenCollected.png
+ create mode 100644 Assets/Character/Sprites/TokenCollected.png.meta
+ create mode 100644 Assets/Character/Sprites/TokenSpin.png
+ create mode 100644 Assets/Character/Sprites/TokenSpin.png.meta
+ create mode 100644 Assets/Character/Sprites/flatDark23.png
+ create mode 100644 Assets/Character/Sprites/flatDark23.png.meta
+ create mode 100644 Assets/Character/Sprites/flatDark24.png
+ create mode 100644 Assets/Character/Sprites/flatDark24.png.meta
+ create mode 100644 Assets/Character/Sprites/flatDark25.png
+ create mode 100644 Assets/Character/Sprites/flatDark25.png.meta
+ create mode 100644 Assets/Character/Sprites/play.jpg
+ create mode 100644 Assets/Character/Sprites/play.jpg.meta
+ create mode 100644 Assets/Editor.meta
+ create mode 100644 Assets/Editor/PatrolPathEditor.cs
+ create mode 100644 Assets/Editor/PatrolPathEditor.cs.meta
+ create mode 100644 Assets/EndFlag.cs
+ create mode 100644 Assets/EndFlag.cs.meta
+ create mode 100644 Assets/Environment.meta
+ create mode 100644 Assets/Environment/Sprites.meta
+ create mode 100644 Assets/Environment/Sprites/MidgroundFiller.png
+ create mode 100644 Assets/Environment/Sprites/MidgroundFiller.png.meta
+ create mode 100644 Assets/Environment/Sprites/ShortBuilding.png
+ create mode 100644 Assets/Environment/Sprites/ShortBuilding.png.meta
+ create mode 100644 Assets/Environment/Sprites/TallBuilding.png
+ create mode 100644 Assets/Environment/Sprites/TallBuilding.png.meta
+ create mode 100644 Assets/Environment/Sprites/TileFloatingLeftEdge.png
+ create mode 100644 Assets/Environment/Sprites/TileFloatingLeftEdge.png.meta
+ create mode 100644 Assets/Environment/Sprites/TileFloatingMiddle.png
+ create mode 100644 Assets/Environment/Sprites/TileFloatingMiddle.png.meta
+ create mode 100644 Assets/Environment/Sprites/TileFloatingRightEdge.png
+ create mode 100644 Assets/Environment/Sprites/TileFloatingRightEdge.png.meta
+ create mode 100644 Assets/Environment/Sprites/TileGround.png
+ create mode 100644 Assets/Environment/Sprites/TileGround.png.meta
+ create mode 100644 Assets/Environment/Sprites/TileGroundDark.png
+ create mode 100644 Assets/Environment/Sprites/TileGroundDark.png.meta
+ create mode 100644 Assets/Environment/Sprites/TileGroundTop.png
+ create mode 100644 Assets/Environment/Sprites/TileGroundTop.png.meta
+ create mode 100644 Assets/Environment/Sprites/cloud.png
+ create mode 100644 Assets/Environment/Sprites/cloud.png.meta
+ create mode 100644 Assets/Environment/Sprites/fence.png
+ create mode 100644 Assets/Environment/Sprites/fence.png.meta
+ create mode 100644 Assets/Environment/Sprites/hillside.png
+ create mode 100644 Assets/Environment/Sprites/hillside.png.meta
+ create mode 100644 Assets/Environment/Sprites/house.png
+ create mode 100644 Assets/Environment/Sprites/house.png.meta
+ create mode 100644 Assets/Environment/Sprites/midground.png
+ create mode 100644 Assets/Environment/Sprites/midground.png.meta
+ create mode 100644 Assets/Environment/Sprites/mountains.png
+ create mode 100644 Assets/Environment/Sprites/mountains.png.meta
+ create mode 100644 Assets/Environment/Sprites/plant.png
+ create mode 100644 Assets/Environment/Sprites/plant.png.meta
+ create mode 100644 Assets/Environment/Sprites/tree.png
+ create mode 100644 Assets/Environment/Sprites/tree.png.meta
+ create mode 100644 Assets/Extra.meta
+ create mode 100755 Assets/Extra/Spawn.prefab
+ create mode 100755 Assets/Extra/Spawn.prefab.meta
+ create mode 100644 Assets/GameManager.cs
+ create mode 100644 Assets/GameManager.cs.meta
+ create mode 100644 Assets/JumpAstonaut.cs
+ create mode 100644 Assets/JumpAstonaut.cs.meta
+ create mode 100644 Assets/LeftButton.cs
+ create mode 100644 Assets/LeftButton.cs.meta
+ create mode 100644 Assets/MobileARTemplateAssets.meta
+ create mode 100644 Assets/MobileARTemplateAssets/AffordanceThemes.meta
+ create mode 100644 Assets/MobileARTemplateAssets/AffordanceThemes/TemplateColorAffordanceTheme.asset
+ create mode 100644 Assets/MobileARTemplateAssets/AffordanceThemes/TemplateColorAffordanceTheme.asset.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Materials.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Materials/Concrete_Normal.tif
+ create mode 100644 Assets/MobileARTemplateAssets/Materials/Concrete_Normal.tif.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Materials/ObjectMaterial.mat
+ create mode 100644 Assets/MobileARTemplateAssets/Materials/ObjectMaterial.mat.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Materials/OcclusionMaterial.mat
+ create mode 100644 Assets/MobileARTemplateAssets/Materials/OcclusionMaterial.mat.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Materials/ShadowReceiver.mat
+ create mode 100644 Assets/MobileARTemplateAssets/Materials/ShadowReceiver.mat.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Prefabs.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Prefabs/ARFeatheredPlane.prefab
+ create mode 100644 Assets/MobileARTemplateAssets/Prefabs/ARFeatheredPlane.prefab.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Prefabs/ArchVariant.prefab
+ create mode 100644 Assets/MobileARTemplateAssets/Prefabs/ArchVariant.prefab.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Prefabs/CubeVariant.prefab
+ create mode 100644 Assets/MobileARTemplateAssets/Prefabs/CubeVariant.prefab.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Prefabs/CylinderVariant.prefab
+ create mode 100644 Assets/MobileARTemplateAssets/Prefabs/CylinderVariant.prefab.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Prefabs/DebugCubeVariant.prefab
+ create mode 100644 Assets/MobileARTemplateAssets/Prefabs/DebugCubeVariant.prefab.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Prefabs/PyramidVariant.prefab
+ create mode 100644 Assets/MobileARTemplateAssets/Prefabs/PyramidVariant.prefab.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Prefabs/TorusVariant.prefab
+ create mode 100644 Assets/MobileARTemplateAssets/Prefabs/TorusVariant.prefab.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Prefabs/WedgeVariant.prefab
+ create mode 100644 Assets/MobileARTemplateAssets/Prefabs/WedgeVariant.prefab.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Scripts.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Scripts/ARFeatheredPlaneMeshVisualizerCompanion.cs
+ create mode 100644 Assets/MobileARTemplateAssets/Scripts/ARFeatheredPlaneMeshVisualizerCompanion.cs.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs
+ create mode 100644 Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Scripts/GoalManager.cs
+ create mode 100644 Assets/MobileARTemplateAssets/Scripts/GoalManager.cs.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Shaders.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Shaders/InteractablePrimitive.shadergraph
+ create mode 100644 Assets/MobileARTemplateAssets/Shaders/InteractablePrimitive.shadergraph.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Shaders/PlaneOcclusionShader.shader
+ create mode 100644 Assets/MobileARTemplateAssets/Shaders/PlaneOcclusionShader.shader.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Shaders/ShadowReceiver.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Shaders/ShadowReceiver/MainLightShadowsSubgraph.shadersubgraph
+ create mode 100644 Assets/MobileARTemplateAssets/Shaders/ShadowReceiver/MainLightShadowsSubgraph.shadersubgraph.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Shaders/ShadowReceiver/ShadowReceiver.shadergraph
+ create mode 100644 Assets/MobileARTemplateAssets/Shaders/ShadowReceiver/ShadowReceiver.shadergraph.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Shaders/ShadowReceiver/ShadowReceiverShaderFunctions.hlsl
+ create mode 100644 Assets/MobileARTemplateAssets/Shaders/ShadowReceiver/ShadowReceiverShaderFunctions.hlsl.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Shaders/URPShadowReceiver.shader
+ create mode 100644 Assets/MobileARTemplateAssets/Shaders/URPShadowReceiver.shader.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Tutorial.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Tutorial/Images.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Tutorial/Images/ARMobileTemplateImage.png
+ create mode 100644 Assets/MobileARTemplateAssets/Tutorial/Images/ARMobileTemplateImage.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Tutorial/Images/ARMobileThumbnailLarge.png
+ create mode 100644 Assets/MobileARTemplateAssets/Tutorial/Images/ARMobileThumbnailLarge.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Tutorial/Images/MobileARTemplateImg.png
+ create mode 100644 Assets/MobileARTemplateAssets/Tutorial/Images/MobileARTemplateImg.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Tutorial/TutorialLayout.wlt
+ create mode 100644 Assets/MobileARTemplateAssets/Tutorial/TutorialLayout.wlt.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Tutorial/TutorialProjectSettings.asset
+ create mode 100644 Assets/MobileARTemplateAssets/Tutorial/TutorialProjectSettings.asset.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Tutorial/TutorialWelcomePage.asset
+ create mode 100644 Assets/MobileARTemplateAssets/Tutorial/TutorialWelcomePage.asset.meta
+ create mode 100644 Assets/MobileARTemplateAssets/Tutorial/Tutorials.asset
+ create mode 100644 Assets/MobileARTemplateAssets/Tutorial/Tutorials.asset.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_InputLift.anim
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_InputLift.anim.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_InputMove.anim
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_InputMove.anim.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_InputRotate.anim
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_InputRotate.anim.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_InputScale.anim
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_InputScale.anim.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_Manipulate.controller
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_Manipulate.controller.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_MoveObject.controller
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_MoveObject.controller.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_RotateObject.controller
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_RotateObject.controller.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_ScaleObject.controller
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_ScaleObject.controller.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_Scan.controller
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_Scan.controller.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_ScanSurface.anim
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_ScanSurface.anim.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_TapToPlace.anim
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_TapToPlace.anim.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_TapToPlace.controller
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Animation/Prompt_TapToPlace.controller.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Fonts.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Fonts/Inter-Regular.ttf
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Fonts/Inter-Regular.ttf.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Fonts/Inter-Regular_SDF.asset
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Fonts/Inter-Regular_SDF.asset.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Fonts/Inter-Regular_SDF_Overlay_Material.mat
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Fonts/Inter-Regular_SDF_Overlay_Material.mat.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Fonts/Inter-Regular_SDF_Underlay.asset
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Fonts/Inter-Regular_SDF_Underlay.asset.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Fonts/Inter-Regular_SDF_Underlay.mat
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Fonts/Inter-Regular_SDF_Underlay.mat.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Fonts/OFL.txt
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Fonts/OFL.txt.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Prefabs.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Prefabs/GreetingCTA.prefab
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Prefabs/GreetingCTA.prefab.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Prefabs/Prompt_InputHints.prefab
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Prefabs/Prompt_InputHints.prefab.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Prefabs/Prompt_MoveObject.prefab
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Prefabs/Prompt_MoveObject.prefab.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Prefabs/Prompt_RotateObject.prefab
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Prefabs/Prompt_RotateObject.prefab.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Prefabs/Prompt_ScaleObject.prefab
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Prefabs/Prompt_ScaleObject.prefab.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Prefabs/Prompt_ScanSurfaces.prefab
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Prefabs/Prompt_ScanSurfaces.prefab.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Prefabs/Prompt_TapToPlace.prefab
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Prefabs/Prompt_TapToPlace.prefab.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Scripts.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Scripts/CutoutMaskUI.cs
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Scripts/CutoutMaskUI.cs.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/ActivationButtonOpaque.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/ActivationButtonOpaque.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube_Highlight.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube_Highlight.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube_Lift.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube_Lift.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube_Lift_Mask.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube_Lift_Mask.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube_Mask.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube_Mask.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube_Move.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube_Move.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube_Rotate.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube_Rotate.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Debug.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Debug.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-DeleteStroke.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-DeleteStroke.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Editor.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Editor.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Gesture_PinchClose.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Gesture_PinchClose.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Gesture_PinchOpen.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Gesture_PinchOpen.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Gesture_Touch.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Gesture_Touch.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Gesture_TouchHold.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Gesture_TouchHold.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Gesture_TouchTwoFinger.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Gesture_TouchTwoFinger.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Hints.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Hints.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-LiftAxisGizmo.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-LiftAxisGizmo.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-MobileDevice.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-MobileDevice.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-MoveAxisGizmos.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-MoveAxisGizmos.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Options.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Options.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-RotateAxisGizmo.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-RotateAxisGizmo.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-ScaleAxisGizmo.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-ScaleAxisGizmo.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Surface.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Surface.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-SurfaceVisual.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-SurfaceVisual.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Unity.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/Icon-Unity.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/MixedCorners.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/MixedCorners.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/MixedCorners_1.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/MixedCorners_1.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/RoundRadius_10_Bottom.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/RoundRadius_10_Bottom.png.meta
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/RoundRadius_10_Top.png
+ create mode 100644 Assets/MobileARTemplateAssets/UI/Sprites/RoundRadius_10_Top.png.meta
+ create mode 100644 Assets/Mod Assets.meta
+ create mode 100644 Assets/Mod Assets/Mod Resources.meta
+ create mode 100644 Assets/Mod Assets/Mod Resources/Fonts.meta
+ create mode 100644 Assets/Mod Assets/Mod Resources/Fonts/Orbitron-Regular SDF.asset
+ create mode 100644 Assets/Mod Assets/Mod Resources/Fonts/Orbitron-Regular SDF.asset.meta
+ create mode 100644 Assets/Mod Assets/Mod Resources/Fonts/PressStart2P-Regular SDF.asset
+ create mode 100644 Assets/Mod Assets/Mod Resources/Fonts/PressStart2P-Regular SDF.asset.meta
+ create mode 100644 Assets/Mod Assets/Mod Resources/Scripts.meta
+ create mode 100644 Assets/Mod Assets/Mod Resources/Scripts/Backend.meta
+ create mode 100644 Assets/Mod Assets/Mod Resources/Scripts/Backend/TemplateEditorDetection.cs
+ create mode 100644 Assets/Mod Assets/Mod Resources/Scripts/Backend/TemplateEditorDetection.cs.meta
+ create mode 100644 Assets/Mod Assets/Mod Resources/Scripts/Platformer.meta
+ create mode 100644 Assets/Mod Assets/Mod Resources/Scripts/Platformer/EmitParticlesOnLand.cs
+ create mode 100644 Assets/Mod Assets/Mod Resources/Scripts/Platformer/EmitParticlesOnLand.cs.meta
+ create mode 100644 Assets/Mod Assets/Mod Resources/Scripts/Platformer/Jiggler.cs
+ create mode 100644 Assets/Mod Assets/Mod Resources/Scripts/Platformer/Jiggler.cs.meta
+ create mode 100644 Assets/Mod Assets/Mod Resources/Scripts/Platformer/PlatformerJumpPad.cs
+ create mode 100644 Assets/Mod Assets/Mod Resources/Scripts/Platformer/PlatformerJumpPad.cs.meta
+ create mode 100644 Assets/Mod Assets/Mod Resources/Scripts/Platformer/PlatformerSpeedPad.cs
+ create mode 100644 Assets/Mod Assets/Mod Resources/Scripts/Platformer/PlatformerSpeedPad.cs.meta
+ create mode 100644 Assets/Mod Assets/Mod Resources/Scripts/Platformer/SimpleTrigger.cs
+ create mode 100644 Assets/Mod Assets/Mod Resources/Scripts/Platformer/SimpleTrigger.cs.meta
+ create mode 100644 Assets/ObjectManager.cs
+ create mode 100644 Assets/ObjectManager.cs.meta
+ create mode 100755 Assets/Pop_Out.anim
+ create mode 100755 Assets/Pop_Out.anim.meta
+ create mode 100644 Assets/Prefabs.meta
+ create mode 100644 Assets/Prefabs/Button.prefab
+ create mode 100644 Assets/Prefabs/Button.prefab.meta
+ create mode 100644 Assets/Prefabs/CinemachineConfiner.prefab
+ create mode 100644 Assets/Prefabs/CinemachineConfiner.prefab.meta
+ create mode 100644 Assets/Prefabs/Current Prefabs.meta
+ create mode 100755 Assets/Prefabs/Current Prefabs/Nozzle.prefab
+ create mode 100755 Assets/Prefabs/Current Prefabs/Nozzle.prefab.meta
+ create mode 100755 Assets/Prefabs/Current Prefabs/Pistons.prefab
+ create mode 100755 Assets/Prefabs/Current Prefabs/Pistons.prefab.meta
+ create mode 100755 Assets/Prefabs/Current Prefabs/Pumps.prefab
+ create mode 100755 Assets/Prefabs/Current Prefabs/Pumps.prefab.meta
+ create mode 100755 Assets/Prefabs/Current Prefabs/UpperHinge.prefab
+ create mode 100755 Assets/Prefabs/Current Prefabs/UpperHinge.prefab.meta
+ create mode 100755 Assets/Prefabs/Current Prefabs/Wires.prefab
+ create mode 100755 Assets/Prefabs/Current Prefabs/Wires.prefab.meta
+ create mode 100644 Assets/Prefabs/Enemy.prefab
+ create mode 100644 Assets/Prefabs/Enemy.prefab.meta
+ create mode 100644 Assets/Prefabs/Player.prefab
+ create mode 100644 Assets/Prefabs/Player.prefab.meta
+ create mode 100755 Assets/Prefabs/Rocket_Enginee.prefab
+ create mode 100755 Assets/Prefabs/Rocket_Enginee.prefab.meta
+ create mode 100644 Assets/Prefabs/Text.meta
+ create mode 100755 Assets/Prefabs/Text/Nozzle.prefab
+ create mode 100755 Assets/Prefabs/Text/Nozzle.prefab.meta
+ create mode 100755 Assets/Prefabs/Text/Pistons.prefab
+ create mode 100755 Assets/Prefabs/Text/Pistons.prefab.meta
+ create mode 100755 Assets/Prefabs/Text/Pumps.prefab
+ create mode 100755 Assets/Prefabs/Text/Pumps.prefab.meta
+ create mode 100755 Assets/Prefabs/Text/UpperHinge.prefab
+ create mode 100755 Assets/Prefabs/Text/UpperHinge.prefab.meta
+ create mode 100755 Assets/Prefabs/Text/Wires.prefab
+ create mode 100755 Assets/Prefabs/Text/Wires.prefab.meta
+ create mode 100644 Assets/Prefabs/UI Canvas.prefab
+ create mode 100644 Assets/Prefabs/UI Canvas.prefab.meta
+ create mode 100755 Assets/ReferenceImageLibrary.asset
+ create mode 100755 Assets/ReferenceImageLibrary.asset.meta
+ create mode 100644 Assets/Rendering.meta
+ create mode 100644 Assets/Rendering/PostProcessVolume.asset
+ create mode 100644 Assets/Rendering/PostProcessVolume.asset.meta
+ create mode 100644 Assets/RestartGame.cs
+ create mode 100644 Assets/RestartGame.cs.meta
+ create mode 100644 Assets/Rocket05_Red Variant Variant.prefab
+ create mode 100644 Assets/Rocket05_Red Variant Variant.prefab.meta
+ create mode 100644 Assets/Samples.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/.sample.json
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoScene.unity
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoScene.unity.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/AffordanceThemes.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/AffordanceThemes/ColorAffordanceTheme.asset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/AffordanceThemes/ColorAffordanceTheme.asset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Animation.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Animation/MenuHide.anim
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Animation/MenuHide.anim.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Animation/ObjectMenu.controller
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Animation/ObjectMenu.controller.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Materials.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Materials/InteractableMat.mat
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Materials/InteractableMat.mat.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Materials/MaterialPipelineHandler.asset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Materials/MaterialPipelineHandler.asset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Models.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Models/Primitive_Arch.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Models/Primitive_Arch.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Models/Primitive_Cube_Debug.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Models/Primitive_Cube_Debug.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Models/Primitive_Cylinder.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Models/Primitive_Cylinder.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Models/Primitive_Pyramid.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Models/Primitive_Pyramid.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Models/Primitive_RoundCube.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Models/Primitive_RoundCube.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Models/Primitive_Torus.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Models/Primitive_Torus.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Models/Primitive_Wedge.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Models/Primitive_Wedge.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Prefabs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Prefabs/Arch.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Prefabs/Arch.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Prefabs/Cube.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Prefabs/Cube.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Prefabs/Cylinder.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Prefabs/Cylinder.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Prefabs/Debug Cube.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Prefabs/Debug Cube.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Prefabs/Pyramid.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Prefabs/Pyramid.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Prefabs/Torus.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Prefabs/Torus.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Prefabs/Wedge.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Prefabs/Wedge.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Scripts.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Scripts/ARSampleMenuManager.cs
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Scripts/ARSampleMenuManager.cs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Button - Circular BG.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Button - Circular BG.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Button - Rounded Highlight.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Button - Rounded Highlight.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Button - Rounded Radius - 4px.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Button - Rounded Radius - 4px.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Button - Rounded Square BG.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Button - Rounded Square BG.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Create.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Create.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Delete.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Delete.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Arch.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Arch.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Cylinder.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Cylinder.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Debug Cube.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Debug Cube.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Pyramid.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Pyramid.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Rounded Cube.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Rounded Cube.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Torus.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Torus.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Wedge.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Wedge.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Textures.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Textures/ConcreteNormal.tif
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/ARDemoSceneAssets/Textures/ConcreteNormal.tif.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Editor.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Editor/Scripts.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Editor/Scripts/ARStarterAssetsSampleProjectValidation.cs
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Editor/Scripts/ARStarterAssetsSampleProjectValidation.cs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Materials.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Materials/FeatheredPlaneMaterial.mat
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Materials/FeatheredPlaneMaterial.mat.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Prefabs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Prefabs/AR Feathered Plane.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Prefabs/AR Feathered Plane.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Prefabs/Screen Space Ray Interactor.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Prefabs/Screen Space Ray Interactor.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Prefabs/XR Origin (AR Rig).prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Prefabs/XR Origin (AR Rig).prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Scripts.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Scripts/ARContactSpawnTrigger.cs
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Scripts/ARContactSpawnTrigger.cs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Scripts/ARFeatheredPlaneMeshVisualizer.cs
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Scripts/ARFeatheredPlaneMeshVisualizer.cs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Scripts/ARInteractorSpawnTrigger.cs
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Scripts/ARInteractorSpawnTrigger.cs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Shaders.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Shaders/FeatheredPlaneShader.shader
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Shaders/FeatheredPlaneShader.shader.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Textures.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Textures/PlanePatternDot.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Textures/PlanePatternDot.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/.sample.json
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/AffordanceThemes.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/AffordanceThemes/ControllerPokeSphereScaleTheme.asset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/AffordanceThemes/ControllerPokeSphereScaleTheme.asset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/AffordanceThemes/HighlightInteractionColorAffordanceTheme.asset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/AffordanceThemes/HighlightInteractionColorAffordanceTheme.asset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/AffordanceThemes/HighlightStrengthInteractionAffordanceTheme.asset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/AffordanceThemes/HighlightStrengthInteractionAffordanceTheme.asset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/AffordanceThemes/PokeSphereColorAffordanceTheme.asset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/AffordanceThemes/PokeSphereColorAffordanceTheme.asset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/AffordanceThemes/PokeSphereInteractionAffordanceTheme.asset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/AffordanceThemes/PokeSphereInteractionAffordanceTheme.asset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Animations.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Animations/ArrowBounce.anim
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Animations/ArrowBounce.anim.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Animations/Climb Teleport Arrow.controller
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Animations/Climb Teleport Arrow.controller.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoScene.unity
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoScene.unity.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/AffordanceThemes.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/AffordanceThemes/InteractionColorAffordanceTheme.asset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/AffordanceThemes/InteractionColorAffordanceTheme.asset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Audio.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Audio/Button Pop.wav
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Audio/Button Pop.wav.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Materials.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Materials/Concrete Dark Blue.mat
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Materials/Concrete Dark Blue.mat.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Materials/Concrete Grey.mat
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Materials/Concrete Grey.mat.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Materials/Concrete Light Blue.mat
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Materials/Concrete Light Blue.mat.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Materials/Lit White.mat
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Materials/Lit White.mat.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Materials/MaterialPipelineHandler.asset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Materials/MaterialPipelineHandler.asset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Models.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster_Long.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster_Long.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Models/Primitive_Cylinder.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Models/Primitive_Cylinder.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Models/Primitive_Pyramid.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Models/Primitive_Pyramid.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Models/Primitive_Tapered_Cylinder.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Models/Primitive_Tapered_Cylinder.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Models/Primitive_Torus.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Models/Primitive_Torus.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Models/Primitive_Torus_Cut.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Models/Primitive_Torus_Cut.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Models/PushButton.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Models/PushButton.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Climb.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Climb/Climb Sample.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Climb/Climb Sample.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Climb/Climbing Wall.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Climb/Climbing Wall.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Climb/Ladder.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Climb/Ladder.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Climb/Multi Floor Ladder.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Climb/Multi Floor Ladder.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Climb/Multi-Anchor Teleport Reticle.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Climb/Multi-Anchor Teleport Reticle.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Climb/Single Floor Ladder.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Climb/Single Floor Ladder.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Far Grab Samples.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Far Grab Samples.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables Sample.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables Sample.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Blaser-Long.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Blaser-Long.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Blaser.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Blaser.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Confetti.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Confetti.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Dynamic Attach Torus.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Dynamic Attach Torus.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Gaze Interactables.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Gaze Interactables.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Instant Cylinder.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Instant Cylinder.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Kinematic Torus.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Kinematic Torus.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Simple Cube.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Simple Cube.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Velocity Pot.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Velocity Pot.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interaction Affordance.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interaction Affordance.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Push Button.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Push Button.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Poke Interactions Sample.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Poke Interactions Sample.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Teleport.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Snapping Teleport Anchor.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Snapping Teleport Anchor.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Teleport Anchor.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Teleport Anchor.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Teleport Area.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Teleport Area.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Teleportation Environment.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/Teleportation Environment.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI Sample.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI Sample.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI/Dropdown.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI/Dropdown.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI/Icon Button.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI/Icon Button.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI/Icon Toggle.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI/Icon Toggle.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI/Interactive Controls.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI/Interactive Controls.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI/MinMaxSlider.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI/MinMaxSlider.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI/ModalSingleButton.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI/ModalSingleButton.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI/Scroll UI Sample.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI/Scroll UI Sample.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI/Text Toggle.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI/Text Toggle.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI/TextButton.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Prefabs/UI/TextButton.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Scripts.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Settings.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Settings/FurthestGazedAtTeleportAnchorFilter.asset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Settings/FurthestGazedAtTeleportAnchorFilter.asset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Settings/MultiFloorTeleportVolumeDestinationSettings.asset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Settings/MultiFloorTeleportVolumeDestinationSettings.asset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Sprites.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Sprites/Asset.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Sprites/Asset.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Sprites/Checkmark.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Sprites/Checkmark.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60 Outline 4.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60 Outline 4.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60_Horizontal.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60_Horizontal.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Sprites/Forward.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Sprites/Forward.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Sprites/LegibilityMask.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Sprites/LegibilityMask.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4 Outline.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4 Outline.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Textures.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Textures/Concrete_Albedo.tif
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Textures/Concrete_Albedo.tif.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Textures/Concrete_Metallic.tif
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Textures/Concrete_Metallic.tif.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Textures/Concrete_Normal.tif
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoSceneAssets/Textures/Concrete_Normal.tif.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Editor.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Editor/Scripts.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.asmdef
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.asmdef.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Filters.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Filters/AnyGazedAtTeleportAnchorFilter.asset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Filters/AnyGazedAtTeleportAnchorFilter.asset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Materials.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Materials/Controller_Grey.mat
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Materials/Controller_Grey.mat.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Materials/Controller_White.mat
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Materials/Controller_White.mat.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Materials/Flat Blue.mat
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Materials/Flat Blue.mat.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Materials/FresnelHighlight.mat
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Materials/FresnelHighlight.mat.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Materials/Interactable.mat
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Materials/Interactable.mat.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Materials/MaterialPipelineHandler.asset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Materials/MaterialPipelineHandler.asset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Materials/Telport Anchor.mat
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Materials/Telport Anchor.mat.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Materials/Telport Area.mat
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Materials/Telport Area.mat.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Materials/UI-NoZTest.mat
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Materials/UI-NoZTest.mat.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Models.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Models/BlinkVisual.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Models/BlinkVisual.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Models/Pinch_Pointer_LOD0.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Models/Pinch_Pointer_LOD0.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Models/Primitive_Cylinder.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Models/Primitive_Cylinder.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Models/Primitive_Wedge.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Models/Primitive_Wedge.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Models/Reticle_Torus.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Models/Reticle_Torus.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Models/UniversalController.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Models/UniversalController.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Affordances.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Affordances/Highlight Interaction Affordance.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Affordances/Highlight Interaction Affordance.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Affordances/Poke Pointer.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Affordances/Poke Pointer.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Controllers.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Controllers/XR Controller Left.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Controllers/XR Controller Left.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Controllers/XR Controller Right.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Controllers/XR Controller Right.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Interactors.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Interactors/Gaze Interactor.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Interactors/Gaze Interactor.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Interactors/Left_NearFarInteractor.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Interactors/Left_NearFarInteractor.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Interactors/Ray Interactor.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Interactors/Ray Interactor.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Interactors/Right_NearFarInteractor.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Interactors/Right_NearFarInteractor.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Teleport.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Teleport/Climb Teleport Arrow.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Teleport/Climb Teleport Arrow.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/XR Origin (XR Rig).prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Prefabs/XR Origin (XR Rig).prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Presets.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Presets/XRI Default Continuous Move.preset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Presets/XRI Default Continuous Move.preset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Presets/XRI Default Continuous Turn.preset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Presets/XRI Default Continuous Turn.preset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Presets/XRI Default Dynamic Move.preset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Presets/XRI Default Dynamic Move.preset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Presets/XRI Default Left Controller Input Action Manager.preset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Presets/XRI Default Left Controller Input Action Manager.preset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Presets/XRI Default Left Grab Move.preset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Presets/XRI Default Left Grab Move.preset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Presets/XRI Default Right Controller Input Action Manager.preset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Presets/XRI Default Right Controller Input Action Manager.preset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Presets/XRI Default Right Grab Move.preset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Presets/XRI Default Right Grab Move.preset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Presets/XRI Default Snap Turn.preset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Presets/XRI Default Snap Turn.preset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Presets/XRI Default XR UI Input Module.preset
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Presets/XRI Default XR UI Input Module.preset.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/ControllerAnimator.cs
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/ControllerAnimator.cs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/ControllerInputActionManager.cs
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/ControllerInputActionManager.cs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/DestroySelf.cs
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/DestroySelf.cs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/DynamicMoveProvider.cs
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/DynamicMoveProvider.cs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/GazeInputManager.cs
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/GazeInputManager.cs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/MaterialPipelineHandler.cs
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/MaterialPipelineHandler.cs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/ObjectSpawner.cs
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/ObjectSpawner.cs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/XRPokeFollowAffordance.cs
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Scripts/XRPokeFollowAffordance.cs.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Shaders.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Shaders/BiRP_Fresnel.shader
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Shaders/BiRP_Fresnel.shader.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Shaders/Interactable.shadergraph
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Shaders/Interactable.shadergraph.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Shaders/UI-NoZTest.shader
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Shaders/UI-NoZTest.shader.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Shaders/Unlit_Fresnel.shadergraph
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Shaders/Unlit_Fresnel.shadergraph.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Shaders/Unlit_ShaderGraph.shadergraph
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Shaders/Unlit_ShaderGraph.shadergraph.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Textures.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Textures/DefaultMaterial_AO.png
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Textures/DefaultMaterial_AO.png.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Tunneling Vignette.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Tunneling Vignette/TunnelingVignette.mat
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Tunneling Vignette/TunnelingVignette.mat.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Tunneling Vignette/TunnelingVignette.prefab
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Tunneling Vignette/TunnelingVignette.prefab.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Tunneling Vignette/TunnelingVignette.shader
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Tunneling Vignette/TunnelingVignette.shader.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Tunneling Vignette/TunnelingVignetteHemisphere.fbx
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Tunneling Vignette/TunnelingVignetteHemisphere.fbx.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Tunneling Vignette/TunnelingVignetteSG.shadergraph
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Tunneling Vignette/TunnelingVignetteSG.shadergraph.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef.meta
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/XRI Default Input Actions.inputactions
+ create mode 100644 Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/XRI Default Input Actions.inputactions.meta
+ create mode 100644 Assets/Saturn's Rings.png
+ create mode 100644 Assets/Saturn's Rings.png.meta
+ create mode 100644 Assets/Scenes.meta
+ create mode 100644 Assets/Scenes/0.Start Game.unity
+ create mode 100644 Assets/Scenes/0.Start Game.unity.meta
+ create mode 100644 Assets/Scenes/1. Game Room.unity
+ create mode 100644 Assets/Scenes/1. Game Room.unity.meta
+ create mode 100644 Assets/Scenes/2.1 Main Menu.unity
+ create mode 100644 Assets/Scenes/2.1 Main Menu.unity.meta
+ create mode 100644 Assets/Scenes/2.2 Triton's Leap Original.unity
+ create mode 100644 Assets/Scenes/2.2 Triton's Leap Original.unity.meta
+ create mode 100755 Assets/Scenes/3.1 Earthbound Enigma.unity
+ create mode 100755 Assets/Scenes/3.1 Earthbound Enigma.unity.meta
+ create mode 100644 Assets/Scenes/4.1 Saturn Game UI.unity
+ create mode 100644 Assets/Scenes/4.1 Saturn Game UI.unity.meta
+ create mode 100644 Assets/Scenes/4.2. Saturn Game.unity
+ create mode 100644 Assets/Scenes/4.2. Saturn Game.unity.meta
+ create mode 100644 Assets/Scenes/Game Room.unity
+ create mode 100644 Assets/Scenes/Game Room.unity.meta
+ create mode 100644 Assets/Scenes/GameOverScene.unity
+ create mode 100644 Assets/Scenes/GameOverScene.unity.meta
+ create mode 100644 Assets/Scenes/SampleSceneSettings.lighting
+ create mode 100644 Assets/Scenes/SampleSceneSettings.lighting.meta
+ create mode 100644 Assets/Scenes/YouWonScene.unity
+ create mode 100644 Assets/Scenes/YouWonScene.unity.meta
+ create mode 100644 Assets/Scripts.meta
+ create mode 100755 Assets/Scripts/ARPlacement 2.cs
+ create mode 100644 Assets/Scripts/ARPlacement 2.cs.meta
+ create mode 100755 Assets/Scripts/ARPlacement.cs
+ create mode 100755 Assets/Scripts/ARPlacement.cs.meta
+ create mode 100644 Assets/Scripts/Canvas Switcher.cs
+ create mode 100644 Assets/Scripts/Canvas Switcher.cs.meta
+ create mode 100644 Assets/Scripts/Core.meta
+ create mode 100644 Assets/Scripts/Core/Fuzzy.cs
+ create mode 100644 Assets/Scripts/Core/Fuzzy.cs.meta
+ create mode 100644 Assets/Scripts/Core/HeapQueue.cs
+ create mode 100644 Assets/Scripts/Core/HeapQueue.cs.meta
+ create mode 100644 Assets/Scripts/Core/Simulation.Event.cs
+ create mode 100644 Assets/Scripts/Core/Simulation.Event.cs.meta
+ create mode 100644 Assets/Scripts/Core/Simulation.InstanceRegister.cs
+ create mode 100644 Assets/Scripts/Core/Simulation.InstanceRegister.cs.meta
+ create mode 100644 Assets/Scripts/Core/Simulation.cs
+ create mode 100644 Assets/Scripts/Core/Simulation.cs.meta
+ create mode 100644 Assets/Scripts/Gameplay.meta
+ create mode 100644 Assets/Scripts/Gameplay/EnablePlayerInput.cs
+ create mode 100644 Assets/Scripts/Gameplay/EnablePlayerInput.cs.meta
+ create mode 100644 Assets/Scripts/Gameplay/EnemyDeath.cs
+ create mode 100644 Assets/Scripts/Gameplay/EnemyDeath.cs.meta
+ create mode 100644 Assets/Scripts/Gameplay/HealthIsZero.cs
+ create mode 100644 Assets/Scripts/Gameplay/HealthIsZero.cs.meta
+ create mode 100644 Assets/Scripts/Gameplay/PlayerDeath.cs
+ create mode 100644 Assets/Scripts/Gameplay/PlayerDeath.cs.meta
+ create mode 100644 Assets/Scripts/Gameplay/PlayerEnemyCollision.cs
+ create mode 100644 Assets/Scripts/Gameplay/PlayerEnemyCollision.cs.meta
+ create mode 100644 Assets/Scripts/Gameplay/PlayerEnteredDeathZone.cs
+ create mode 100644 Assets/Scripts/Gameplay/PlayerEnteredDeathZone.cs.meta
+ create mode 100644 Assets/Scripts/Gameplay/PlayerEnteredVictoryZone.cs
+ create mode 100644 Assets/Scripts/Gameplay/PlayerEnteredVictoryZone.cs.meta
+ create mode 100644 Assets/Scripts/Gameplay/PlayerJumped.cs
+ create mode 100644 Assets/Scripts/Gameplay/PlayerJumped.cs.meta
+ create mode 100644 Assets/Scripts/Gameplay/PlayerLanded.cs
+ create mode 100644 Assets/Scripts/Gameplay/PlayerLanded.cs.meta
+ create mode 100644 Assets/Scripts/Gameplay/PlayerSpawn.cs
+ create mode 100644 Assets/Scripts/Gameplay/PlayerSpawn.cs.meta
+ create mode 100644 Assets/Scripts/Gameplay/PlayerStopJump.cs
+ create mode 100644 Assets/Scripts/Gameplay/PlayerStopJump.cs.meta
+ create mode 100644 Assets/Scripts/Gameplay/PlayerTokenCollision.cs
+ create mode 100644 Assets/Scripts/Gameplay/PlayerTokenCollision.cs.meta
+ create mode 100755 Assets/Scripts/ImageTracer 2.cs
+ create mode 100644 Assets/Scripts/ImageTracer 2.cs.meta
+ create mode 100755 Assets/Scripts/ImageTracer.cs
+ create mode 100755 Assets/Scripts/ImageTracer.cs.meta
+ create mode 100644 Assets/Scripts/Mechanics.meta
+ create mode 100644 Assets/Scripts/Mechanics/AnimationController.cs
+ create mode 100644 Assets/Scripts/Mechanics/AnimationController.cs.meta
+ create mode 100644 Assets/Scripts/Mechanics/DeathZone.cs
+ create mode 100644 Assets/Scripts/Mechanics/DeathZone.cs.meta
+ create mode 100644 Assets/Scripts/Mechanics/EnemyController.cs
+ create mode 100644 Assets/Scripts/Mechanics/EnemyController.cs.meta
+ create mode 100644 Assets/Scripts/Mechanics/GameController.cs
+ create mode 100644 Assets/Scripts/Mechanics/GameController.cs.meta
+ create mode 100644 Assets/Scripts/Mechanics/Health.cs
+ create mode 100644 Assets/Scripts/Mechanics/Health.cs.meta
+ create mode 100644 Assets/Scripts/Mechanics/KinematicObject.cs
+ create mode 100644 Assets/Scripts/Mechanics/KinematicObject.cs.meta
+ create mode 100644 Assets/Scripts/Mechanics/PatrolPath.Mover.cs
+ create mode 100644 Assets/Scripts/Mechanics/PatrolPath.Mover.cs.meta
+ create mode 100644 Assets/Scripts/Mechanics/PatrolPath.cs
+ create mode 100644 Assets/Scripts/Mechanics/PatrolPath.cs.meta
+ create mode 100644 Assets/Scripts/Mechanics/PlayAudioClip.cs
+ create mode 100644 Assets/Scripts/Mechanics/PlayAudioClip.cs.meta
+ create mode 100644 Assets/Scripts/Mechanics/PlayerController.cs
+ create mode 100644 Assets/Scripts/Mechanics/PlayerController.cs.meta
+ create mode 100644 Assets/Scripts/Mechanics/SpawnPoint.cs
+ create mode 100644 Assets/Scripts/Mechanics/SpawnPoint.cs.meta
+ create mode 100644 Assets/Scripts/Mechanics/TokenController.cs
+ create mode 100644 Assets/Scripts/Mechanics/TokenController.cs.meta
+ create mode 100644 Assets/Scripts/Mechanics/TokenInstance.cs
+ create mode 100644 Assets/Scripts/Mechanics/TokenInstance.cs.meta
+ create mode 100644 Assets/Scripts/Mechanics/VictoryZone.cs
+ create mode 100644 Assets/Scripts/Mechanics/VictoryZone.cs.meta
+ create mode 100644 Assets/Scripts/Model.meta
+ create mode 100644 Assets/Scripts/Model/PlatformerModel.cs
+ create mode 100644 Assets/Scripts/Model/PlatformerModel.cs.meta
+ create mode 100644 Assets/Scripts/PlayerCollider.cs
+ create mode 100644 Assets/Scripts/PlayerCollider.cs.meta
+ create mode 100755 Assets/Scripts/PrefabController 2.cs
+ create mode 100644 Assets/Scripts/PrefabController 2.cs.meta
+ create mode 100755 Assets/Scripts/PrefabController.cs
+ create mode 100755 Assets/Scripts/PrefabController.cs.meta
+ create mode 100644 Assets/Scripts/SpawnGameObjects.cs
+ create mode 100644 Assets/Scripts/SpawnGameObjects.cs.meta
+ create mode 100644 Assets/Scripts/Spawner.cs
+ create mode 100644 Assets/Scripts/Spawner.cs.meta
+ create mode 100644 Assets/Scripts/Spawner2.cs
+ create mode 100644 Assets/Scripts/Spawner2.cs.meta
+ create mode 100644 Assets/Scripts/StartButton 2.cs
+ create mode 100644 Assets/Scripts/StartButton 2.cs.meta
+ create mode 100644 Assets/Scripts/StartButton.cs
+ create mode 100644 Assets/Scripts/StartButton.cs.meta
+ create mode 100644 Assets/Scripts/UI.meta
+ create mode 100644 Assets/Scripts/UI/MainUIController.cs
+ create mode 100644 Assets/Scripts/UI/MainUIController.cs.meta
+ create mode 100644 Assets/Scripts/UI/MetaGameController.cs
+ create mode 100644 Assets/Scripts/UI/MetaGameController.cs.meta
+ create mode 100644 Assets/Scripts/View.meta
+ create mode 100644 Assets/Scripts/View/AnimatedTile.cs
+ create mode 100644 Assets/Scripts/View/AnimatedTile.cs.meta
+ create mode 100644 Assets/Scripts/View/ParallaxLayer.cs
+ create mode 100644 Assets/Scripts/View/ParallaxLayer.cs.meta
+ create mode 100644 Assets/Settings.meta
+ create mode 100644 Assets/Settings/Project Configuration.meta
+ create mode 100644 Assets/Settings/Project Configuration/SampleScene.scenetemplate
+ create mode 100644 Assets/Settings/Project Configuration/SampleScene.scenetemplate.meta
+ create mode 100755 Assets/Settings/Project Configuration/SampleScene.unity
+ create mode 100755 Assets/Settings/Project Configuration/SampleScene.unity.meta
+ create mode 100644 Assets/Settings/Project Configuration/SceneTemplate_RotateCube.cs
+ create mode 100644 Assets/Settings/Project Configuration/SceneTemplate_RotateCube.cs.meta
+ create mode 100644 Assets/Settings/Project Configuration/TemplateImage.png
+ create mode 100644 Assets/Settings/Project Configuration/TemplateImage.png.meta
+ create mode 100755 Assets/Settings/SampleSceneProfile.asset
+ create mode 100755 Assets/Settings/SampleSceneProfile.asset.meta
+ create mode 100644 Assets/Settings/URP-Performant-Renderer.asset
+ create mode 100644 Assets/Settings/URP-Performant-Renderer.asset.meta
+ create mode 100644 Assets/Settings/URP-Performant.asset
+ create mode 100644 Assets/Settings/URP-Performant.asset.meta
+ create mode 100644 Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+ create mode 100644 Assets/Settings/UniversalRenderPipelineGlobalSettings.asset.meta
+ create mode 100755 Assets/Spawn.vfx
+ create mode 100755 Assets/Spawn.vfx.meta
+ create mode 100644 Assets/StartButton.cs
+ create mode 100644 Assets/StartButton.cs.meta
+ create mode 100755 Assets/Text (TMP).controller
+ create mode 100755 Assets/Text (TMP).controller.meta
+ create mode 100755 Assets/Text Animation.anim
+ create mode 100755 Assets/Text Animation.anim.meta
+ create mode 100644 Assets/TextMesh Pro.meta
+ create mode 100644 Assets/TextMesh Pro/Documentation.meta
+ create mode 100644 Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+ create mode 100644 Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+ create mode 100644 Assets/TextMesh Pro/Fonts.meta
+ create mode 100644 Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+ create mode 100644 Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+ create mode 100644 Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+ create mode 100644 Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+ create mode 100644 Assets/TextMesh Pro/Resources.meta
+ create mode 100644 Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+ create mode 100644 Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+ create mode 100644 Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+ create mode 100755 Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+ create mode 100755 Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+ create mode 100644 Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+ create mode 100644 Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+ create mode 100755 Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+ create mode 100755 Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+ create mode 100644 Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+ create mode 100644 Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+ create mode 100644 Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+ create mode 100644 Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+ create mode 100644 Assets/TextMesh Pro/Resources/Sprite Assets.meta
+ create mode 100644 Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+ create mode 100644 Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+ create mode 100644 Assets/TextMesh Pro/Resources/Style Sheets.meta
+ create mode 100644 Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+ create mode 100644 Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+ create mode 100644 Assets/TextMesh Pro/Resources/TMP Settings.asset
+ create mode 100644 Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+ create mode 100644 Assets/TextMesh Pro/Shaders.meta
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+ create mode 100755 Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+ create mode 100755 Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMPro.cginc
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+ create mode 100755 Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+ create mode 100755 Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+ create mode 100644 Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+ create mode 100644 Assets/TextMesh Pro/Sprites.meta
+ create mode 100644 Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+ create mode 100644 Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+ create mode 100644 Assets/TextMesh Pro/Sprites/EmojiOne.json
+ create mode 100644 Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+ create mode 100644 Assets/TextMesh Pro/Sprites/EmojiOne.png
+ create mode 100644 Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+ create mode 100644 Assets/Tiles.meta
+ create mode 100644 Assets/Tiles/MidgroundFiller.asset
+ create mode 100644 Assets/Tiles/MidgroundFiller.asset.meta
+ create mode 100644 Assets/Tiles/ShortBuilding.asset
+ create mode 100644 Assets/Tiles/ShortBuilding.asset.meta
+ create mode 100644 Assets/Tiles/TallBuilding.asset
+ create mode 100644 Assets/Tiles/TallBuilding.asset.meta
+ create mode 100644 Assets/Tiles/TileFloatingLeftEdge.asset
+ create mode 100644 Assets/Tiles/TileFloatingLeftEdge.asset.meta
+ create mode 100644 Assets/Tiles/TileFloatingRightEdge.asset
+ create mode 100644 Assets/Tiles/TileFloatingRightEdge.asset.meta
+ create mode 100644 Assets/Tiles/TileFloatingTileMiddle.asset
+ create mode 100644 Assets/Tiles/TileFloatingTileMiddle.asset.meta
+ create mode 100644 Assets/Tiles/TileGround.asset
+ create mode 100644 Assets/Tiles/TileGround.asset.meta
+ create mode 100644 Assets/Tiles/TileGroundDark.asset
+ create mode 100644 Assets/Tiles/TileGroundDark.asset.meta
+ create mode 100644 Assets/Tiles/TileGroundTop.asset
+ create mode 100644 Assets/Tiles/TileGroundTop.asset.meta
+ create mode 100644 Assets/Tiles/cloud.asset
+ create mode 100644 Assets/Tiles/cloud.asset.meta
+ create mode 100644 Assets/Tiles/fence.asset
+ create mode 100644 Assets/Tiles/fence.asset.meta
+ create mode 100644 Assets/Tiles/hillside.asset
+ create mode 100644 Assets/Tiles/hillside.asset.meta
+ create mode 100644 Assets/Tiles/house.asset
+ create mode 100644 Assets/Tiles/house.asset.meta
+ create mode 100644 Assets/Tiles/midground.asset
+ create mode 100644 Assets/Tiles/midground.asset.meta
+ create mode 100644 Assets/Tiles/mountains.asset
+ create mode 100644 Assets/Tiles/mountains.asset.meta
+ create mode 100644 Assets/Tiles/plant.asset
+ create mode 100644 Assets/Tiles/plant.asset.meta
+ create mode 100644 Assets/Tiles/tree.asset
+ create mode 100644 Assets/Tiles/tree.asset.meta
+ create mode 100644 Assets/Tutorials.meta
+ create mode 100644 Assets/Tutorials/BuildAndPublish.meta
+ create mode 100644 Assets/Tutorials/BuildAndPublish/Criteria.meta
+ create mode 100644 Assets/Tutorials/BuildAndPublish/Criteria/PublishCriteria.cs
+ create mode 100644 Assets/Tutorials/BuildAndPublish/Criteria/PublishCriteria.cs.meta
+ create mode 100644 Assets/Tutorials/TutorialCallbacks.cs
+ create mode 100644 Assets/Tutorials/TutorialCallbacks.cs.meta
+ create mode 100644 Assets/VIsual Object.meta
+ create mode 100644 Assets/VIsual Object/Scripts.meta
+ create mode 100755 Assets/VIsual Object/Scripts/PlacementIndicator.cs
+ create mode 100755 Assets/VIsual Object/Scripts/PlacementIndicator.cs.meta
+ create mode 100755 Assets/Wires.controller
+ create mode 100755 Assets/Wires.controller.meta
+ create mode 100644 Assets/XR.meta
+ create mode 100644 Assets/XR/Loaders.meta
+ create mode 100644 Assets/XR/Loaders/AR Core Loader.asset
+ create mode 100644 Assets/XR/Loaders/AR Core Loader.asset.meta
+ create mode 100644 Assets/XR/Loaders/AR Kit Loader.asset
+ create mode 100644 Assets/XR/Loaders/AR Kit Loader.asset.meta
+ create mode 100644 Assets/XR/Loaders/OpenXRLoader.asset
+ create mode 100644 Assets/XR/Loaders/OpenXRLoader.asset.meta
+ create mode 100644 Assets/XR/Loaders/SimulationLoader.asset
+ create mode 100644 Assets/XR/Loaders/SimulationLoader.asset.meta
+ create mode 100644 Assets/XR/Resources.meta
+ create mode 100644 Assets/XR/Resources/XRSimulationRuntimeSettings.asset
+ create mode 100644 Assets/XR/Resources/XRSimulationRuntimeSettings.asset.meta
+ create mode 100644 Assets/XR/Settings.meta
+ create mode 100644 Assets/XR/Settings/AR Core Settings.asset
+ create mode 100644 Assets/XR/Settings/AR Core Settings.asset.meta
+ create mode 100644 Assets/XR/Settings/AR Kit Settings.asset
+ create mode 100644 Assets/XR/Settings/AR Kit Settings.asset.meta
+ create mode 100644 Assets/XR/Settings/MagicLeapSettings.asset
+ create mode 100644 Assets/XR/Settings/MagicLeapSettings.asset.meta
+ create mode 100644 Assets/XR/Settings/OpenXR Editor Settings.asset
+ create mode 100644 Assets/XR/Settings/OpenXR Editor Settings.asset.meta
+ create mode 100644 Assets/XR/Settings/OpenXR Package Settings.asset
+ create mode 100644 Assets/XR/Settings/OpenXR Package Settings.asset.meta
+ create mode 100644 Assets/XR/Settings/XRSimulationSettings.asset
+ create mode 100644 Assets/XR/Settings/XRSimulationSettings.asset.meta
+ create mode 100644 Assets/XR/UserSimulationSettings.meta
+ create mode 100644 Assets/XR/UserSimulationSettings/Resources.meta
+ create mode 100644 Assets/XR/UserSimulationSettings/Resources/XRSimulationPreferences.asset
+ create mode 100644 Assets/XR/UserSimulationSettings/Resources/XRSimulationPreferences.asset.meta
+ create mode 100644 Assets/XR/UserSimulationSettings/SimulationEnvironmentAssetsManager.asset
+ create mode 100644 Assets/XR/UserSimulationSettings/SimulationEnvironmentAssetsManager.asset.meta
+ create mode 100644 Assets/XR/XRGeneralSettings.asset
+ create mode 100644 Assets/XR/XRGeneralSettings.asset.meta
+ create mode 100644 Assets/XRI.meta
+ create mode 100644 Assets/XRI/Settings.meta
+ create mode 100644 Assets/XRI/Settings/Resources.meta
+ create mode 100644 Assets/XRI/Settings/Resources/InteractionLayerSettings.asset
+ create mode 100644 Assets/XRI/Settings/Resources/InteractionLayerSettings.asset.meta
+ create mode 100644 Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset
+ create mode 100644 Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset.meta
+ create mode 100644 Assets/XRI/Settings/XRInteractionEditorSettings.asset
+ create mode 100644 Assets/XRI/Settings/XRInteractionEditorSettings.asset.meta
+ create mode 100644 Assets/gameover.jpg
+ create mode 100644 Assets/gameover.jpg.meta
+ create mode 100644 Assets/hero.meta
+ create mode 100644 Assets/hero/alien_plant_enemy4.png
+ create mode 100644 Assets/hero/alien_plant_enemy4.png.meta
+ create mode 100644 Assets/hero/walk.meta
+ create mode 100644 Assets/hero/walk/hero_walk_0001.controller
+ create mode 100644 Assets/hero/walk/hero_walk_0001.controller.meta
+ create mode 100644 Assets/hero/walk/hero_walk_0001.png
+ create mode 100644 Assets/hero/walk/hero_walk_0001.png.meta
+ create mode 100644 Assets/hero/walk/hero_walk_0002.png
+ create mode 100644 Assets/hero/walk/hero_walk_0002.png.meta
+ create mode 100644 Assets/hero/walk/hero_walk_0003.png
+ create mode 100644 Assets/hero/walk/hero_walk_0003.png.meta
+ create mode 100644 Assets/hero/walk/hero_walk_0004.png
+ create mode 100644 Assets/hero/walk/hero_walk_0004.png.meta
+ create mode 100644 Assets/hero/walk/hero_walk_0005.png
+ create mode 100644 Assets/hero/walk/hero_walk_0005.png.meta
+ create mode 100644 Assets/hero/walk/hero_walk_0006.png
+ create mode 100644 Assets/hero/walk/hero_walk_0006.png.meta
+ create mode 100644 Assets/hero/walk/hero_walk_0007.png
+ create mode 100644 Assets/hero/walk/hero_walk_0007.png.meta
+ create mode 100644 Assets/hero/walk/hero_walk_0008.png
+ create mode 100644 Assets/hero/walk/hero_walk_0008.png.meta
+ create mode 100644 Assets/hero/walk/hero_walk_0009.png
+ create mode 100644 Assets/hero/walk/hero_walk_0009.png.meta
+ create mode 100644 Assets/hero/walk/hero_walk_0010.png
+ create mode 100644 Assets/hero/walk/hero_walk_0010.png.meta
+ create mode 100644 Assets/hero/walk/hero_walk_0011.png
+ create mode 100644 Assets/hero/walk/hero_walk_0011.png.meta
+ create mode 100644 Assets/hero/walk/hero_walk_0012.png
+ create mode 100644 Assets/hero/walk/hero_walk_0012.png.meta
+ create mode 100644 Assets/hero/walk/walk.anim
+ create mode 100644 Assets/hero/walk/walk.anim.meta
+ create mode 100644 Assets/play-5.jpg
+ create mode 100644 Assets/play-5.jpg.meta
+ create mode 100644 Assets/play.jpg
+ create mode 100644 Assets/play.jpg.meta
+ create mode 100644 Assets/scrip.cs
+ create mode 100644 Assets/scrip.cs.meta
+ create mode 100644 Assets/won.png
+ create mode 100644 Assets/won.png.meta
+ create mode 100644 Builds_BurstDebugInformation_DoNotShip/StaticLibraries/lib_burst_generated.txt
+ create mode 100644 Packages/manifest.json
+ create mode 100644 Packages/packages-lock.json
+ create mode 100644 ProjectSettings/AudioManager.asset
+ create mode 100644 ProjectSettings/BurstAotSettings_Android.json
+ create mode 100644 ProjectSettings/BurstAotSettings_StandaloneWindows.json
+ create mode 100644 ProjectSettings/BurstAotSettings_iOS.json
+ create mode 100644 ProjectSettings/ClusterInputManager.asset
+ create mode 100644 ProjectSettings/CommonBurstAotSettings.json
+ create mode 100644 ProjectSettings/DynamicsManager.asset
+ create mode 100644 ProjectSettings/EditorBuildSettings.asset
+ create mode 100644 ProjectSettings/EditorSettings.asset
+ create mode 100644 ProjectSettings/GraphicsSettings.asset
+ create mode 100644 ProjectSettings/InputManager.asset
+ create mode 100644 ProjectSettings/MemorySettings.asset
+ create mode 100644 ProjectSettings/NavMeshAreas.asset
+ create mode 100644 ProjectSettings/PackageManagerSettings.asset
+ create mode 100644 ProjectSettings/Packages/com.unity.learn.iet-framework/Settings.json
+ create mode 100644 ProjectSettings/Packages/com.unity.template-authoring/Settings.json
+ create mode 100644 ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+ create mode 100644 ProjectSettings/Physics2DSettings.asset
+ create mode 100644 ProjectSettings/PresetManager.asset
+ create mode 100644 ProjectSettings/ProjectSettings.asset
+ create mode 100644 ProjectSettings/ProjectVersion.txt
+ create mode 100644 ProjectSettings/QualitySettings.asset
+ create mode 100644 ProjectSettings/SceneTemplateSettings.json
+ create mode 100644 ProjectSettings/ShaderGraphSettings 2.asset
+ create mode 100644 ProjectSettings/ShaderGraphSettings.asset
+ create mode 100644 ProjectSettings/TagManager.asset
+ create mode 100644 ProjectSettings/TimeManager.asset
+ create mode 100644 ProjectSettings/TimelineSettings.asset
+ create mode 100644 ProjectSettings/URPProjectSettings.asset
+ create mode 100644 ProjectSettings/UnityConnectSettings.asset
+ create mode 100644 ProjectSettings/VFXManager.asset
+ create mode 100644 ProjectSettings/VersionControlSettings.asset
+ create mode 100644 ProjectSettings/VisualScriptingSettings.asset
+ create mode 100644 ProjectSettings/XRPackageSettings.asset
+ create mode 100644 ProjectSettings/XRSettings.asset
+natalievalsangkar@Natalies-Air Cosmic Chronicles (Final) % 
+natalievalsangkar@Natalies-Air Cosmic Chronicles (Final) % git remote add origin https://github.com/NatalieValsangkar/Cosmic-Chronicles.git
+natalievalsangkar@Natalies-Air Cosmic Chronicles (Final) % git branch -M main
+natalievalsangkar@Natalies-Air Cosmic Chronicles (Final) % 
+natalievalsangkar@Natalies-Air Cosmic Chronicles (Final) % git push -u origin main
+Username for 'https://github.com': 
+git add .
+
+Password for 'https://github.com': 
