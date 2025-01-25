@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5193997407040414516
+  m_GuidHigh: 16243040349994236592
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5356776500386852391
+      m_GuidHigh: 7955593893577883798
+    m_SerializedTextureGuid:
+      m_GuidLow: 2874632303235192155
+      m_GuidHigh: 7066566570599930825
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Wires
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5602847477311292583
+      m_GuidHigh: 9485754706875773328
+    m_SerializedTextureGuid:
+      m_GuidLow: 15863017555793745472
+      m_GuidHigh: 17844994839375750873
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Nozzle
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5460852315717061611
+      m_GuidHigh: 13260007344092402875
+    m_SerializedTextureGuid:
+      m_GuidLow: 10159478608317492
+      m_GuidHigh: 4059932823963168136
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Pistons
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4794988365636362981
+      m_GuidHigh: 5032748941113943168
+    m_SerializedTextureGuid:
+      m_GuidLow: 14318344900318527917
+      m_GuidHigh: 14785312148526425115
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Pumps
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4639339540078900027
+      m_GuidHigh: 6608894611261857175
+    m_SerializedTextureGuid:
+      m_GuidLow: 12318657598819901185
+      m_GuidHigh: 10996390028466110426
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: UpperHinge
+    m_Texture: {fileID: 0}

@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{A0EBAC81-4A31-E148-2A57-25B8E313A56E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ObjectManager.cs">
+    <Files>
+      <File FileName="Assets/ObjectManager.cs" Line="40" Column="1" />
+      <File FileName="Assets/Scripts/UI/MetaGameController.cs" Line="66" Column="1" />
+      <File FileName="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/BaseInput.cs" Line="75" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Cosmic Chronicles (Final)" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="UI" expanded="True" />
+              </Node>
+              <Node name="ObjectManager.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4846e135-a69f-4905-9724-53b8ec5ffad7" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

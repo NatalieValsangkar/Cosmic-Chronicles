@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{25DF6BA1-8E26-48B8-930A-9803479EFD35}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ObjectManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/StartButton 2.cs" Line="16" Column="1" />
+      <File FileName="Assets/RestartGame.cs" Line="4" Column="25" />
+      <File FileName="Assets/Scripts/SpawnGameObjects.cs" Line="69" Column="1" />
+      <File FileName="Assets/Scripts/Spawner2.cs" Line="77" Column="10" />
+      <File FileName="Assets/scrip.cs" Line="18" Column="2" />
+      <File FileName="Assets/TapManager.cs" Line="10" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="New Saturn" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True" />
+              <Node name="ObjectManager.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6b5eef29-1b77-4377-b450-b67327d40b04" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
